@@ -1,0 +1,26 @@
+.hero-section {
+    color: white;
+    text-align: left;
+  }
+  
+  @media (max-width: 600px) {
+    .hero-section {
+      text-align: center;
+    }
+  }
+  
+  .hero-image {
+    max-width: 100%;
+    height: auto;
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  

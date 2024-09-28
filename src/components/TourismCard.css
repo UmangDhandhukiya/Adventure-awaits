@@ -1,0 +1,17 @@
+/* src/components/TourismCard.css */
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .tourism-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .tourism-card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+  }
+  

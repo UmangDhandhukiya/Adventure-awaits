@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+  background-color: #228B22 !important;
+}
+
+.nav-links {
+    display: none;
+  }
+  
+  @media (min-width: 600px) {
+    .nav-links {
+      display: flex;
+      gap: 10px;
+    }
+  }
+  
+  .MuiDrawer-paper {
+    width: 250px;
+  }
+  

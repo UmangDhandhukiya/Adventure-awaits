@@ -121,6 +121,7 @@ const About = () => {
           <Typography variant="h5" sx={{ mb: 2 }}>
             Ready to Start Your Journey?
           </Typography>
+          <Link to = "/contact">
           <Button
             variant="contained"
             sx={{
@@ -139,6 +140,7 @@ const About = () => {
             href="/contact"
             endIcon={<ArrowForward />}
           >
+          </Link>
             Contact Us
           </Button>
         </Box>

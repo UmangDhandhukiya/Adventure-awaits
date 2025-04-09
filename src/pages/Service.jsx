@@ -34,7 +34,7 @@ const servicesData = [
     productId: 'khambhalida-cave', 
   },
   {
-    image: '/r1.jpg',
+    image: '/r2.jpg',
     title: 'Red Fort (Delhi)',
     description: 'The Red Fort is a UNESCO World Heritage Site and a symbol of India\'s rich history and architecture.',
     productId: 'red-fort', 

@@ -11,21 +11,21 @@ import './Home.css'; // Add custom styles here
 const places = [
   {
     id: 1,
-    images: ['public/Tajmahal.jpg', 'public/t1.jpg', 'public/t2.jpg'],
+    images: ['/Tajmahal.jpg', '/t1.jpg', '/t2.jpg'],
     title: 'Tajmahal Agra',
     description: 'A symbol of love and one of the most iconic structures in the world.',
     rating: 4.5,
   },
   {
     id: 2,
-    images: ['public/r1.jpg', 'public/r2.jpg', 'public/r3.jpg'],
+    images: ['/r1.jpg', '/r2.jpg', '/r3.jpg'],
     title: 'Red-Fort Delhi',
     description: 'A majestic fort representing the rich history of our India.',
     rating: 4.0,
   },
   {
     id: 3,
-    images: ['public/Ajantacave.jpg', 'public/a1.jpg', 'public/a2.jpg'],
+    images: ['/Ajantacave.jpg', '/a1.jpg', '/a2.jpg'],
     title: 'Ajanta Cave',
     description: 'Discover ancient rock-cut caves with mesmerizing paintings.',
     rating: 5.0,
@@ -73,7 +73,7 @@ const Home = () => {
   return (
     <div>
       {/* Hero Section with Parallax Effect */}
-      <Parallax bgImage="public/k.jpg" strength={500}>
+      <Parallax bgImage="/k.jpg" strength={500}>
         <div style={{ height: '100vh', display: 'flex', alignItems: 'center' }}>
           <Container maxWidth="lg">
             <Grid container spacing={5} alignItems="center">
@@ -113,7 +113,7 @@ const Home = () => {
               <Grid item xs={12} md={6}>
                 <Fade right>
                   <img
-                    src="public/c.jpg"
+                    src="/c.jpg"
                     alt="Destination"
                     className="hero-image"
                     style={{

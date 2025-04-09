@@ -90,11 +90,11 @@ const Home = () => {
                   </Typography>
                 </Fade>
                 <Zoom delay={600}>
+                  <Link to = "/services"
                   <Button
                     variant="contained"
                     size="large"
                     endIcon={<ArrowForward />}
-                    href="/services"
                     sx={{
                       mt: 3,
                       background: 'linear-gradient(45deg, #FF6347 30%, #FFA07A 90%)',
@@ -104,6 +104,7 @@ const Home = () => {
                       },
                     }}
                   >
+                  </Link>
                     Start Your Journey
                   </Button>
                 </Zoom>

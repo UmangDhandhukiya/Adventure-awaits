@@ -4,8 +4,8 @@ import MainLayout from './layout/MainLayout';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import Service from './pages/Service';
 import AuthPage from './pages/AuthPage';
+import Service from './pages/Service';
 import ProductPage from './pages/ProductPage';
 
 const App = () => {
@@ -19,7 +19,7 @@ const App = () => {
         <Route element={<MainLayout />}>
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Service />} />
+          <Route path="/services" element={<Service/>} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/product/:productId" element={<ProductPage />} />
         </Route>

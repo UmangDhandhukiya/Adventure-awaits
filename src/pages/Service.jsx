@@ -2,7 +2,6 @@
 import React from 'react';
 import { Container, Grid } from '@mui/material';
 import TourismCard from '../components/TourismCard';
-
 const servicesData = [
   {
     image: 'public/Tajmahal.jpg',
@@ -35,7 +34,7 @@ const servicesData = [
     productId: 'khambhalida-cave', 
   },
   {
-    image: 'public/r1.jpg',
+    image: '/public/r1.jpg',
     title: 'Red Fort (Delhi)',
     description: 'The Red Fort is a UNESCO World Heritage Site and a symbol of India\'s rich history and architecture.',
     productId: 'red-fort', 

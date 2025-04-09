@@ -7,6 +7,7 @@ import { Parallax } from 'react-parallax';
 import gsap from 'gsap';
 import './Home.css'; // Add custom styles here
 
+
 const places = [
   {
     id: 1,

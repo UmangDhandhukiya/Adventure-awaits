@@ -12,7 +12,7 @@ const products = {
     establishment: 'Built in the 16th century.',
     bestTimeToVisit: 'October to March is the best time to visit for pleasant weather.',
     totalExpense: 'Approx. $30 per person for entry and guided tours.',
-    image: 'public/Sheeshmahal.jpg',
+    image: '../public/Sheeshmahal.jpg',
   },
    'taj-mahal': {
     title: 'Taj Mahal',
@@ -22,7 +22,7 @@ const products = {
     establishment: 'Built between 1632 and 1653.',
     bestTimeToVisit: 'November to February is ideal for cooler weather.',
     totalExpense: 'Approx. $15 per person for entry; additional for guides.',
-    image: 'public/Tajmahal.jpg',
+    image: '../public/Tajmahal.jpg',
   },
   'raniki-vav': {
     title: 'Ran ki Vaav',
@@ -32,7 +32,7 @@ const products = {
     establishment: 'Built in the 11th century.',
     bestTimeToVisit: 'November to February for pleasant weather.',
     totalExpense: 'Approx. $20 per person for entry and guides.',
-    image: 'public/Ranikivav.jpg',
+    image: '../public/Ranikivav.jpg',
   },
   'ajanta-cave': {
     title: 'Ajanta Cave',
@@ -42,7 +42,7 @@ const products = {
     establishment: 'Dating back to the 2nd century BCE.',
     bestTimeToVisit: 'October to March is ideal for visiting.',
     totalExpense: 'Approx. $10 per person for entry.',
-    image: 'public/Ajantacave.jpg',
+    image: '../public/Ajantacave.jpg',
   },
   'khambhalida-cave': {
     title: 'Khambhalida Cave',
@@ -52,7 +52,7 @@ const products = {
     establishment: 'Carved in the 4th-5th century CE.',
     bestTimeToVisit: 'October to March for comfortable weather.',
     totalExpense: 'Approx. $15 per person for entry.',
-    image: 'public/Kmbalida.jpg',
+    image: '../public/Khmbalida.jpg',
   },
   'red-fort': {
     title: 'Red Fort',
@@ -62,7 +62,7 @@ const products = {
     establishment: 'Constructed between 1638 and 1648.',
     bestTimeToVisit: 'October to March for pleasant sightseeing.',
     totalExpense: 'Approx. $10 per person for entry.',
-    image: 'public/r1.jpg',
+    image: '../public/r1.jpg',
   },
 };
 
